@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0 ,.2)
+}
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: aliceblue;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nav{
+    width: 65%;
+    height: 40px;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    align-items: center;
+}
+.nav img{
+    width: 30px;
+    height: 30px;
+}
+.nav .title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.nav img{
+    margin-left: 15px;
+}
+.right{
+    width: 35%;
+    height: 100%;
+    background-color: rgba(228, 228, 228, 0.8);
+   position: absolute;
+   right: 0;
+   top: 0;
+   z-index: 3;
+}
+.right .close img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+.right .picture img{
+    width: 60px;
+    height: 60px;
+    margin-top: 30%;
+    position: relative;
+}
+.right span.nickname{
+   font-size: 18px;
+   font-weight: bold;
+   letter-spacing: 3px;
+   vertical-align: 32px;
+}
+.right span.loginId{
+    font-size: 14px;
+    color: rgb(82, 81, 81);
+    position: absolute;
+    left: 65px;
+    top: 120px;
+}
+.left{
+    position: relative;
+}
+.left .input{
+    width: 65%;
+    position: absolute;
+    bottom: -180px;
+    background-color: rgba(236, 236, 236, 0.5);
+    z-index: 9;
+}
+.left .dialogbox{
+    width: 65%;
+    height: 280px;
+    background-color: aliceblue;
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+}
+.left .dialogbox .item{
+    margin: 50px;
+    margin-left: 10px;
+}
+.left .dialogbox .item.me{
+    text-align: right;
+    margin-right: 50px;
+}
+.left .dialogbox .item.me .contentimg{
+    position: absolute;
+    right: 10px;
+}
+.left .dialogbox .item span{
+    padding: 3px;
+    background-color: #2ae22a;
+    border:1px solid #1AAD19;
+    border-radius: 3px;
+}
+.left .dialogbox .contentimg{
+    width: 30px;
+    height: 30px;
+    vertical-align: -10px;
+}
+
+.left .input textarea{
+    width: 100%;
+    height: 160px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    resize: none;
+}
+.left .input textarea:focus{
+    outline: 1px solid lightblue;
+}
+.left .input .sending{
+    width: 40px;
+    height: 20px;
+    background-color: #1AAD19;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 80%;
+    right: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}

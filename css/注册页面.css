@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+body{
+    background: url(../imgs/风景图.jpeg) no-repeat;
+    background-size: 300%;
+    background-position: center;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    background-color:rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    text-align: center;
+}
+.container .title{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container .title img{
+    width: 50px;
+    height: 50px;
+}
+.container .title span{
+    vertical-align: 15px;
+}
+.account,
+.nickname{
+    /* background-color: antiquewhite; */
+    height: 30px;
+    line-height: 30px;
+    width: 220px;
+    text-align: center;
+    border: 1px solid rgb(212, 212, 212);
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.account input,
+.nickname input{
+    height: 100%;
+    background-color: transparent;
+    vertical-align: 5px;
+}
+.password,
+.again-password{
+    /* background-color: antiquewhite; */
+    height: 30px;
+    line-height: 30px;
+    width: 220px;
+    border: 1px solid rgb(212, 212, 212);
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.password input,
+.again-password input{
+    height: 100%;
+    background-color: transparent;
+    vertical-align: 5px;
+}
+
+.account img,
+.password img,
+.nickname img,
+.again-password img{
+    width: 20px;
+    height: 20px;
+}
+.login{
+    height: 30px;
+    line-height: 30px;
+    width: 220px;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 12);
+    font-size: 16px;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button{
+    background-color: transparent;
+}
+.tip{
+    font-size: 12px;
+}
+.tip span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.accont-mag,
+.nickname-mag,
+.password-mag,
+.aginpassword-mag{
+    font-size: 10px;
+    color: rgb(197, 37, 37);
+    margin-top: -10px;
+    margin-left: -150px;
+    /* display: none; */
+}
+/* .accont-mag,
+.nickname-mag,
+.password-mag,
+.aginpassword-mag{
+    font-size: 10px;
+    color: rgb(197, 37, 37);
+    margin-top: -10px;
+    margin-left: -150px;
+    display: none;
+}
+.account.err .accont-mag,
+.nickname.err .nickname-mag,
+.password.err .password-mag,
+.again-password.err .aginpassword-mag{
+    display: block;
+}
+.account.err,
+.nickname.err,
+.password.err,
+.again-password.err{
+    border: 1px solid rgb(197, 37, 37);
+} */

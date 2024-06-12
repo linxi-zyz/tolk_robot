@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/聊天界面.css">
+</head>
+<body>
+        <div class="container">
+            <div class="nav">
+                <img src="../imgs/人工智能.png" alt="">
+                <span class="title"> AI 聊天机器人</span>
+            </div>
+            <div class="left">
+                <div class="dialogbox">
+                    <div class="item me">
+                        <span >你几岁了？</span>
+                        <img class="contentimg" src="../imgs/用户头像.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="contentimg" src="../imgs/机器人.png" alt="">
+                        <span >你猜，我多少岁</span>
+                    </div>
+                </div>
+                 <form action="" class="formitem">
+                    <div class="input">
+                        <textarea class="input-txt" name="" id="" placeholder="请输入想要输入的文字内容，按回车键发送" cols="30" rows="10"></textarea>
+                        <button class="sending">发送</button>
+                     </div>
+                 </form>
+            </div>
+            <div class="right">
+                <div class="close">
+                    <img src="../imgs/叉叉.png" alt="">
+                </div>
+                <div class="picture">
+                    <img src="../imgs/用户头像.png" alt="">
+                    <span class="nickname"></span>
+                    <span class="loginId"></span>
+                </div>
+            </div>
+        </div>
+    <script src="../js/公共代码.js"></script>
+    <script src="../js/api.js"></script>
+    <script src="../js/表单验证通用代码.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
